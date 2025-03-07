@@ -1,0 +1,164 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fcfcfc;
+}
+
+header {
+    background-color: #333;
+    color: #0c0997;
+    padding: 10px 0;
+    text-align: center;
+}
+header img.Gamebook {
+    height: 50px;
+    margin-left: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    margin: 10px 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    background-color: #575757;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+form {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 1em;
+    background: #fff;
+    border-radius: 5px;
+}
+
+label {
+    margin-bottom: .5em;
+    color: #333333;
+    display: block;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+    border: 1px solid #CCCCCC;
+    padding: .5em;
+    font-size: 1em;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 1em;
+}
+
+input[type="submit"] {
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: #575757;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.subheader {
+    background-color: #e9e0e0;
+    padding: 5px 20px;
+}
+
+.subheader nav a {
+    color: #d60c50;
+    text-decoration:none;
+    margin: 0 10px;
+    padding: 5px 10px;
+}
+
+.subheader nav a:hover {
+    background-color: #0fbcc956;
+}
+/* for button of pending request*/
+form button {
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+}
+
+.accept-btn {
+    background-color: #4CAF50; /* Green */
+}
+
+.accept-btn:hover {
+    background-color: #45a049;
+}
+
+.decline-btn {
+    background-color: #f44336; /* Red */
+}
+
+.decline-btn:hover {
+    background-color: #e53935;
+}
+.delete-btn{
+    background-color: #f44336; /* Red */
+}
+.delete-btn:hover{
+    background-color: #0fbcc956;
+}
